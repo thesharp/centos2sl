@@ -4,9 +4,10 @@ env.use_ssh_config = True
 
 tz = "Europe/Moscow"
 ntp = "ru.pool.ntp.org"
+repo = "mirror.yandex.ru"
 
-yum_conf = "http://mirror.yandex.ru/scientificlinux/6x/x86_64/os/Packages/yum-conf-sl6x-1-2.noarch.rpm"
-sl_release = "http://mirror.yandex.ru/scientificlinux/6x/x86_64/os/Packages/sl-release-6.3-1.x86_64.rpm"
+yum_conf = "http://%s/scientificlinux/6x/x86_64/os/Packages/yum-conf-sl6x-1-2.noarch.rpm" % repo
+sl_release = "http://%s/scientificlinux/6x/x86_64/os/Packages/sl-release-6.4-1.x86_64.rpm" % repo
 
 
 def set_tz():
