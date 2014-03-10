@@ -7,7 +7,7 @@ ntp = "ru.pool.ntp.org"
 repo = "mirror.yandex.ru"
 
 yum_conf = "http://%s/scientificlinux/6x/x86_64/os/Packages/yum-conf-sl6x-1-2.noarch.rpm" % repo
-sl_release = "http://%s/scientificlinux/6x/x86_64/os/Packages/sl-release-6.4-1.x86_64.rpm" % repo
+sl_release = "http://%s/scientificlinux/6x/x86_64/os/Packages/sl-release-6.5-1.x86_64.rpm" % repo
 
 
 def set_tz():
